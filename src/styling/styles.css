@@ -1,0 +1,237 @@
+.app {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.navibar {
+  font-family: 'Josefin Sans';
+  font-weight: 600;
+}
+
+.Walls {
+  background-image: url("../../public/images/img1.jpg");
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.openingText {
+  margin-top: -300px;
+  margin-left: 20px;
+  position: relative;
+  width: 500px;
+  color: white;
+  font-family: 'Josefin Sans';
+}
+
+.keyFeatures {
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.linkBox {
+  width: 120px;
+  margin-top: 50px;
+  margin-bottom: 155px;
+}
+
+.linkWithBorderBottom {
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+  margin-top: -5px;
+}
+
+.keyFeaturesTextBox {
+  position: absolute;
+  bottom: 50px;
+  padding-left: 40px;
+  font-family: 'Josefin Sans';
+  font-weight: 600;
+  color: white;
+}
+
+.biggestFeature {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  height: 400px;
+  background-image: url("../../public/images/img7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.newsTitle {
+  margin-left: 40px;
+  font-family: 'Josefin Sans';
+  font-weight: 800;
+  font-size: 26px;
+}
+
+.newsCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsCardTitle {
+  font-family: 'Josefin Sans';
+  font-style: italic;
+}
+
+.cardContainer {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.contactTitle {
+  margin-left: 40px;
+  margin-top: 40px;
+  font-family: 'Josefin Sans';
+  font-weight: 800;
+  font-size: 26px;
+}
+
+.addressTitle {
+  font-family: 'Josefin Sans';
+  font-weight: 800;
+}
+
+.addressSubtitle {
+  font-family: 'Josefin Sans';
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  height: 55px;
+}
+
+.footerText {
+  font-family: 'Josefin Sans';
+  justify-content: center;
+}
+
+.banner {
+  height: 420px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bannerTitle {
+  position: relative;
+  display: flex;
+  padding-top: 140px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: white;
+  font-family: 'Josefin Sans';
+  font-size: 44px;
+}
+
+.navStat {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.bigTextBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigTextFeature {
+  font-family: 'Josefin Sans';
+  font-weight: 300;
+  font-style: italic;
+  font-size: 26px;
+}
+
+.companyTitle {
+  margin-right: auto;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.longText {
+  width: 400px;
+}
+
+.keyFeatureContainer {
+  margin-top: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+  .openingText {
+    width: 350px;
+  }
+
+  .keyFeatures {
+    height: 250px;
+  }
+
+  .bigTextFeature {
+    font-size: 20px;
+  }
+
+  .bigTextBox {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .navibar {
+    width: 300px;
+  }
+
+  .companyTitle {
+    display: none;
+  }
+
+  .longText {
+    width: 330px;
+  }
+
+  .keyFeatureContainer {
+    margin-top: -30px;
+  }
+
+  .newsCard {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cardContainer {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .addressSubtitle {
+    width: 400px;
+  }
+
+  .contactContainer {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .longText {
+    width: 230px;
+  }
+  .bigTextFeature {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
