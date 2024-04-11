@@ -3,8 +3,6 @@ import { Menu } from "antd";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import "../styling/styles.css";
 
-const { SubMenu } = Menu;
-
 function Navbar() {
   const [scrollPosition, setScrollPosition] = useState(0);
 
