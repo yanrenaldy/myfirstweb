@@ -39,32 +39,19 @@ function Navbar() {
         selectedKeys={[location.pathname]}
         className="navibar"
       >
-        <div
-          className="companyTitle"
-        >
-          Nama Perusahaan
-        </div>
+        <div className="companyTitle">Nama Perusahaan</div>
         <Menu.Item key="/">
           <Link to={"/"}>Home</Link>
         </Menu.Item>
         <Menu.Item key="/berita">
           <Link to={"berita"}>News</Link>
         </Menu.Item>
-        <SubMenu key="sub1" title="Profile">
-          <Menu.Item key="/facility">
-            <Link to={"facility"}>Facility</Link>
-          </Menu.Item>
-          <Menu.Item key="3">Product 2</Menu.Item>
-          <Menu.Item key="4">Product 3</Menu.Item>
-        </SubMenu>
-        <SubMenu key="sub2" title="About">
-          <Menu.Item key="/tentang">
-            <Link to={"tentang"}>History</Link>
-          </Menu.Item>
-          <Menu.Item key="6">Product 2</Menu.Item>
-        </SubMenu>
-
-        <Menu.Item key="pendaftaran">Join US</Menu.Item>
+        <Menu.Item key="/facility">
+          <Link to={"facility"}>Facility</Link>
+        </Menu.Item>
+        <Menu.Item key="/tentang">
+          <Link to={"tentang"}>History</Link>
+        </Menu.Item>
       </Menu>
       <Outlet />
     </React.Fragment>
